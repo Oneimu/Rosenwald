@@ -1,5 +1,11 @@
 html{
     overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+    background-image: url('/Users/alexowens/rosenwald/Rosenwald/mysite/myapp/Rosenwald_Library_Home_Image.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .fisk_rectangle_corner {
@@ -145,7 +151,7 @@ img {
 .gradient_top {
     position: absolute;
     width: 1440px;
-    height: 380px;
+    height: 1471px;
     left: 0px;
     top: 680px;
 
@@ -179,9 +185,9 @@ img {
 
 .school_example1_rectangle {
     position: absolute;
-    width: 405px;
+    width: 388px;
     height: 66px;
-    left: 62px;
+    left: 70px;
     top: 975px;
 
     background: rgba(0, 123, 255, 0.25);
@@ -213,9 +219,9 @@ img {
 
 .school_example2_rectangle {
     position: absolute;
-    width: 405px;
+    width: 388px;
     height: 66px;
-    left: 516px;
+    left: 525px;
     top: 975px;
 
     background: rgba(0, 123, 255, 0.25);
@@ -247,9 +253,9 @@ img {
 
 .school_example3_rectangle {
     position: absolute;
-    width: 405px;
+    width: 388px;
     height: 66px;
-    left: 970px;
+    left: 978px;
     top: 975px;
 
     background: rgba(0, 123, 255, 0.25);
@@ -259,7 +265,7 @@ img {
     position: absolute;
     width: 235px;
     height: 37px;
-    left: 1055px;
+    left: 1064px;
     top: 968px;
 
     font-family: Montserrat;
@@ -269,4 +275,559 @@ img {
     line-height: 29px;
 
     color: #FFFFFF;
+}
+
+/* Schools row title */
+.schools_row_title {
+    /* SCHOOLS SEE MORE */
+    position: absolute;
+    width: 509px;
+    height: 56px;
+    left: 62px;
+    top: 1060px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFC107;
+}
+
+.schoolsRow_example1 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 62px;
+    top: 1146px;
+}
+
+.schoolsRow_example1_rectangle {
+    position: absolute;
+    width: 388px;
+    height: 66px;
+    left: 70px;
+    top: 1375px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.schoolsRow_text1 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 147px;
+    top: 1368px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.schoolsRow_example2 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 516px;
+    top: 1146px;
+}
+
+.schoolsRow_example2_rectangle {
+    position: absolute;
+    width: 388px;
+    height: 66px;
+    left: 525px;
+    top: 1375px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.schoolsRow_text2 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 601px;
+    top: 1368px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.schoolsRow_example3 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 970px;
+    top: 1146px;
+}
+
+.schoolsRow_example3_rectangle {
+    position: absolute;
+    width: 388px;
+    height: 66px;
+    left: 978px;
+    top: 1375px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.schoolsRow_text3 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 1064px;
+    top: 1368px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+/* Hospitals row title */
+.hospitals_row_title {
+    /* HOSPITALS SEE MORE */
+    position: absolute;
+    width: 509px;
+    height: 56px;
+    left: 62px;
+    top: 1468px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFBD07;
+}
+
+.hospitalsRow_example1 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 62px;
+    top: 1554px;
+}
+
+.hospitalsRow_example1_rectangle {
+    position: absolute;
+    width: 388px;
+    height: 66px;
+    left: 70px;
+    top: 1783px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.hospitalsRow_text1 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 147px;
+    top: 1776px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.hospitalsRow_example2 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 516px;
+    top: 1554px;
+}
+
+.hospitalsRow_example2_rectangle {
+    position: absolute;
+    width: 388px;
+    height: 66px;
+    left: 525px;
+    top: 1783px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.hospitalsRow_text2 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 601px;
+    top: 1776px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.hospitalsRow_example3 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 970px;
+    top: 1554px;
+}
+
+.hospitalsRow_example3_rectangle {
+    position: absolute;
+    width: 388px;
+    height: 66px;
+    left: 978px;
+    top: 1783px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.hospitalsRow_text3 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 1064px;
+    top: 1776px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+
+/* Bottom Bar */
+.bottom_rectangle {
+    /* Rectangle 13 */
+    position: absolute;
+    width: 1440px;
+    height: 146px;
+    left: 0px;
+    top: 2005px;
+
+    background: rgba(255, 193, 7, 0.8);
+}
+
+.fisk_logo_footer {
+    /* FISK-LOGO-PLACEHOLDER 2 */
+    position: absolute;
+    width: 171px;
+    height: 87px;
+    left: 17px;
+    top: 2014px;
+}
+
+.fisk_address_footer {
+    /* 1000 17th Avenue N. Nashville, TN 37208 */
+    position: absolute;
+    width: 171px;
+    height: 45px;
+    left: 5px;
+    top: 2067px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #142C6A;
+}
+
+.about_rosenwald {
+    /* About Rosenwald Database */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 210px;
+    top: 2013px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.about_fisk {
+    /* About Fisk University */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 210px;
+    top: 2038px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.about_developers {
+    /* About the Developer Team */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 210px;
+    top: 2063px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.library_catalogue {
+    /* Library Catalogue */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 498px;
+    top: 2013px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.special_collections {
+    /* Special Collections */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 498px;
+    top: 2038px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.research_guides {
+    /* Research Guides */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 498px;
+    top: 2063px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.schools_collection {
+    /* Schools Collection */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 742px;
+    top: 2013px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.terms_of_use {
+    /* Terms of Use */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 742px;
+    top: 2038px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.admin_login {
+    /* Admin. Login */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 742px;
+    top: 2063px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.contact_us {
+    /* Contact Us */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 986px;
+    top: 2013px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.feedback {
+    /* Feedback */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 986px;
+    top: 2038px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.twitter_icon {
+    /* Twitter Icon */
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1230px;
+    top: 2035px;
+    background-color: #142C6A;
+    -webkit-mask: url(twitter.svg) no-repeat center;
+    mask: url(twitter.svg) no-repeat center;
+}
+
+.insta_logo {
+    /* Insta Logo */
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1269px;
+    top: 2035px;
+    background-color: #142C6A;
+    -webkit-mask: url(iconmonstr-instagram-11.svg) no-repeat center;
+    mask: url(iconmonstr-instagram-11.svg) no-repeat center;
+
+}
+
+.social_media_divider {
+    /* Line 15 */
+    position: absolute;
+    width: 38px;
+    height: 0px;
+    left: 1290px;
+    top: 2049px;
+
+    border: 1px solid #142C6A;
+    transform: rotate(90deg);
+}
+
+.accesibility {
+    /* Accesibility */
+    position: absolute;
+    width: 95px;
+    height: 21px;
+    left: 1323px;
+    top: 2013px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.privacy {
+    /* Privacy */
+    position: absolute;
+    width: 95px;
+    height: 21px;
+    left: 1323px;
+    top: 2037px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.library_cc {
+    /* ©The Fisk University John Hope and Aurelia E. Franklin Library, 2021 */
+    position: absolute;
+    width: 176px;
+    height: 27px;
+    left: 1230px;
+    top: 2065px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+
+    color: #142C6A;
 }
