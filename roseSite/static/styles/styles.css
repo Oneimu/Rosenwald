@@ -1,0 +1,1108 @@
+/* {html{
+    overflow-y: scroll;
+}
+
+.fisk_rectangle_corner {
+    /* Rectangle 5 
+    position: absolute;
+    width: 142px;
+    height: 64px;
+    left: 1298px;
+    top: 36px;
+
+    background: rgba(0, 0, 0, 0.62);
+}
+
+img {
+    position: absolute;
+    width: 171px;
+    height: 51px;
+    left: -14px;
+    top: 8px;
+    object-fit: scale-down;
+}
+
+/* ROSENWALD Digital Collections 
+
+.rosenwald_title {
+    position: absolute;
+    width: 787px;
+    height: 161px;
+    left: 18px;
+    top: 175px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 90.5px;
+
+    color: #FFFFFF;
+}
+
+.digital_collections_title {
+    position: absolute;
+    width: 787px;
+    height: 161px;
+    left: 18px;
+    top: 255px;
+
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight:normal;
+    font-size: 64px;
+    line-height: 83.65px;
+
+    color: #FFFFFF;
+}
+
+.search_bar_rectangle {
+    position: absolute;
+    width: 586px;
+    height: 71px;
+    left: 18px;
+    top: 382px;
+
+    background: rgba(0, 0, 0, 0.62);
+    border-radius: 10px;
+}
+
+.search_keyword_text {
+    position: absolute;
+    width: 482px;
+    height: 44px;
+    left: 36px;
+    top: 370px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height 
+
+
+    color: #FFFFFF;
+}
+
+.search_icon {
+    position: absolute;
+    height: 51.1083984375px;
+    width: 51.739990234375px;
+    left: 545px;
+    top: 392px;
+    border-radius: 0px;
+
+    /* background-color:#FFFFFF; 
+    color:#FFFFFF;
+    object-fit: fill;
+}
+
+.question_rectangle {
+    /* Rectangle 6 
+    position: absolute;
+    width: 572px;
+    height: 293px;
+    left: 839px;
+    top: 349px;
+
+    background: rgba(0, 0, 0, 0.62);
+}
+
+.what_question_text {
+    /* What am I searching? 
+    position: absolute;
+    width: 459px;
+    height: 60px;
+    left: 920px;
+    top: 354px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFC107;
+}
+
+.what_am_paragraph_text {
+    position: absolute;
+    width: 463px;
+    height: 149px;
+    left: 912px;
+    top: 429px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.gradient_top {
+    position: absolute;
+    width: 1440px;
+    height: 380px;
+    left: 0px;
+    top: 680px;
+
+    background: linear-gradient(180deg, rgba(253, 253, 253, 0) 0%, rgba(77, 70, 70, 0.328) 5.21%, rgba(0, 0, 0, 0.82) 15.1%);
+}
+
+.recently_digitized_items {
+    /* RECENTLY DIGITIZED ITEMS 
+    position: absolute;
+    width: 560px;
+    height: 56px;
+    left: 61px;
+    top: 660px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFC107;
+}
+
+.school_example1 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 62px;
+    top: 746px;
+}
+
+.school_example1_rectangle {
+    position: absolute;
+    width: 405px;
+    height: 66px;
+    left: 62px;
+    top: 975px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.school_text1 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 147px;
+    top: 968px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.school_example2 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 516px;
+    top: 746px;
+}
+
+.school_example2_rectangle {
+    position: absolute;
+    width: 405px;
+    height: 66px;
+    left: 516px;
+    top: 975px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.school_text2 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 601px;
+    top: 968px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.school_example3 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 970px;
+    top: 746px;
+}
+
+.school_example3_rectangle {
+    position: absolute;
+    width: 405px;
+    height: 66px;
+    left: 970px;
+    top: 975px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.school_text3 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 1055px;
+    top: 968px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}} */
+
+
+   
+html{
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+    background-image: url('/Users/alexowens/rosenwald/Rosenwald/mysite/myapp/Rosenwald_Library_Home_Image.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fisk_rectangle_corner {
+    /* Rectangle 5 */
+    position: absolute;
+    width: 142px;
+    height: 64px;
+    left: 1298px;
+    top: 36px;
+
+    background: rgba(0, 0, 0, 0.62);
+}
+
+img {
+    position: absolute;
+    width: 171px;
+    height: 51px;
+    left: -14px;
+    top: 8px;
+    object-fit: scale-down;
+}
+
+/* ROSENWALD Digital Collections */
+
+.rosenwald_title {
+    position: absolute;
+    width: 787px;
+    height: 161px;
+    left: 18px;
+    top: 175px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 90.5px;
+
+    color: #FFFFFF;
+}
+
+.digital_collections_title {
+    position: absolute;
+    width: 787px;
+    height: 161px;
+    left: 18px;
+    top: 255px;
+
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight:normal;
+    font-size: 64px;
+    line-height: 83.65px;
+
+    color: #FFFFFF;
+}
+
+.search_bar_rectangle {
+    position: absolute;
+    width: 586px;
+    height: 71px;
+    left: 18px;
+    top: 382px;
+
+    background: rgba(0, 0, 0, 0.62);
+    border-radius: 10px;
+}
+
+.search_keyword_text {
+    position: absolute;
+    width: 482px;
+    height: 44px;
+    left: 36px;
+    top: 370px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.search_icon {
+    position: absolute;
+    height: 51.1083984375px;
+    width: 51.739990234375px;
+    left: 545px;
+    top: 392px;
+    border-radius: 0px;
+
+    /* background-color:#FFFFFF; */
+    color:#FFFFFF;
+    object-fit: fill;
+}
+
+.question_rectangle {
+    /* Rectangle 6 */
+    position: absolute;
+    width: 572px;
+    height: 293px;
+    left: 839px;
+    top: 349px;
+
+    background: rgba(0, 0, 0, 0.62);
+}
+
+.what_question_text {
+    /* What am I searching? */
+    position: absolute;
+    width: 459px;
+    height: 60px;
+    left: 920px;
+    top: 354px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFC107;
+}
+
+.what_am_paragraph_text {
+    position: absolute;
+    width: 463px;
+    height: 149px;
+    left: 912px;
+    top: 429px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.gradient_top {
+    position: absolute;
+    width: 1440px;
+    height: 1471px;
+    left: 0px;
+    top: 680px;
+
+    background: linear-gradient(180deg, rgba(253, 253, 253, 0) 0%, rgba(77, 70, 70, 0.328) 5.21%, rgba(0, 0, 0, 0.82) 15.1%);
+}
+
+.recently_digitized_items {
+    /* RECENTLY DIGITIZED ITEMS */
+    position: absolute;
+    width: 560px;
+    height: 56px;
+    left: 61px;
+    top: 660px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFC107;
+}
+
+.school_example1 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 62px;
+    top: 746px;
+}
+
+.school_example1_rectangle {
+    position: absolute;
+    width: 388px;
+    height: 66px;
+    left: 70px;
+    top: 975px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.school_text1 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 147px;
+    top: 968px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.school_example2 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 516px;
+    top: 746px;
+}
+
+.school_example2_rectangle {
+    position: absolute;
+    width: 388px;
+    height: 66px;
+    left: 525px;
+    top: 975px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.school_text2 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 601px;
+    top: 968px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.school_example3 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 970px;
+    top: 746px;
+}
+
+.school_example3_rectangle {
+    position: absolute;
+    width: 388px;
+    height: 66px;
+    left: 978px;
+    top: 975px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.school_text3 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 1064px;
+    top: 968px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+/* Schools row title */
+.schools_row_title {
+    /* SCHOOLS SEE MORE */
+    position: absolute;
+    width: 509px;
+    height: 56px;
+    left: 62px;
+    top: 1060px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFC107;
+}
+
+.schoolsRow_example1 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 62px;
+    top: 1146px;
+}
+
+.schoolsRow_example1_rectangle {
+    position: absolute;
+    width: 388px;
+    height: 66px;
+    left: 70px;
+    top: 1375px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.schoolsRow_text1 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 147px;
+    top: 1368px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.schoolsRow_example2 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 516px;
+    top: 1146px;
+}
+
+.schoolsRow_example2_rectangle {
+    position: absolute;
+    width: 388px;
+    height: 66px;
+    left: 525px;
+    top: 1375px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.schoolsRow_text2 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 601px;
+    top: 1368px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.schoolsRow_example3 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 970px;
+    top: 1146px;
+}
+
+.schoolsRow_example3_rectangle {
+    position: absolute;
+    width: 388px;
+    height: 66px;
+    left: 978px;
+    top: 1375px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.schoolsRow_text3 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 1064px;
+    top: 1368px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+/* Hospitals row title */
+.hospitals_row_title {
+    /* HOSPITALS SEE MORE */
+    position: absolute;
+    width: 509px;
+    height: 56px;
+    left: 62px;
+    top: 1468px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFBD07;
+}
+
+.hospitalsRow_example1 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 62px;
+    top: 1554px;
+}
+
+.hospitalsRow_example1_rectangle {
+    position: absolute;
+    width: 388px;
+    height: 66px;
+    left: 70px;
+    top: 1783px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.hospitalsRow_text1 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 147px;
+    top: 1776px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.hospitalsRow_example2 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 516px;
+    top: 1554px;
+}
+
+.hospitalsRow_example2_rectangle {
+    position: absolute;
+    width: 388px;
+    height: 66px;
+    left: 525px;
+    top: 1783px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.hospitalsRow_text2 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 601px;
+    top: 1776px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.hospitalsRow_example3 {
+    position: absolute;
+    width: 405px;
+    height: 223px;
+    left: 970px;
+    top: 1554px;
+}
+
+.hospitalsRow_example3_rectangle {
+    position: absolute;
+    width: 388px;
+    height: 66px;
+    left: 978px;
+    top: 1783px;
+
+    background: rgba(0, 123, 255, 0.25);
+}
+
+.hospitalsRow_text3 {
+    position: absolute;
+    width: 235px;
+    height: 37px;
+    left: 1064px;
+    top: 1776px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+
+/* Bottom Bar */
+.bottom_rectangle {
+    /* Rectangle 13 */
+    position: absolute;
+    width: 1440px;
+    height: 146px;
+    left: 0px;
+    top: 2005px;
+
+    background: rgba(255, 193, 7, 0.8);
+}
+
+.fisk_logo_footer {
+    /* FISK-LOGO-PLACEHOLDER 2 */
+    position: absolute;
+    width: 171px;
+    height: 87px;
+    left: 17px;
+    top: 2014px;
+}
+
+.fisk_address_footer {
+    /* 1000 17th Avenue N. Nashville, TN 37208 */
+    position: absolute;
+    width: 171px;
+    height: 45px;
+    left: 5px;
+    top: 2067px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #142C6A;
+}
+
+.about_rosenwald {
+    /* About Rosenwald Database */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 210px;
+    top: 2013px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.about_fisk {
+    /* About Fisk University */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 210px;
+    top: 2038px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.about_developers {
+    /* About the Developer Team */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 210px;
+    top: 2063px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.library_catalogue {
+    /* Library Catalogue */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 498px;
+    top: 2013px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.special_collections {
+    /* Special Collections */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 498px;
+    top: 2038px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.research_guides {
+    /* Research Guides */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 498px;
+    top: 2063px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.schools_collection {
+    /* Schools Collection */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 742px;
+    top: 2013px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.terms_of_use {
+    /* Terms of Use */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 742px;
+    top: 2038px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.admin_login {
+    /* Admin. Login */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 742px;
+    top: 2063px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.contact_us {
+    /* Contact Us */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 986px;
+    top: 2013px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.feedback {
+    /* Feedback */
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left: 986px;
+    top: 2038px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.twitter_icon {
+    /* Twitter Icon */
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1230px;
+    top: 2035px;
+    background-color: #142C6A;
+    -webkit-mask: url(twitter.svg) no-repeat center;
+    mask: url(twitter.svg) no-repeat center;
+}
+
+.insta_logo {
+    /* Insta Logo */
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1269px;
+    top: 2035px;
+    background-color: #142C6A;
+    -webkit-mask: url(iconmonstr-instagram-11.svg) no-repeat center;
+    mask: url(iconmonstr-instagram-11.svg) no-repeat center;
+
+}
+
+.social_media_divider {
+    /* Line 15 */
+    position: absolute;
+    width: 38px;
+    height: 0px;
+    left: 1290px;
+    top: 2049px;
+
+    border: 1px solid #142C6A;
+    transform: rotate(90deg);
+}
+
+.accesibility {
+    /* Accesibility */
+    position: absolute;
+    width: 95px;
+    height: 21px;
+    left: 1323px;
+    top: 2013px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.privacy {
+    /* Privacy */
+    position: absolute;
+    width: 95px;
+    height: 21px;
+    left: 1323px;
+    top: 2037px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #142C6A;
+}
+
+.library_cc {
+    /* ©The Fisk University John Hope and Aurelia E. Franklin Library, 2021 */
+    position: absolute;
+    width: 176px;
+    height: 27px;
+    left: 1230px;
+    top: 2065px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+
+    color: #142C6A;
+}
