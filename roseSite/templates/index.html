@@ -10,17 +10,30 @@
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@400;600&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="fisk_rectangle_corner">
-            <img src = "{% static 'images/FISK-LOGO-PLACEHOLDER.png' %}" alt="FISK LOGO" />
-        </div>
+        <form action="https://www.fisk.edu/" target="_blank" rel="noopener noreferrer">
+            <button type="submit" style = "cursor: pointer; ">
+                <div class="fisk_rectangle_corner">
+                    <img src = "{% static 'images/FISK-LOGO-PLACEHOLDER.png' %}" alt="FISK LOGO" />
+                </div>
+            </button>
+        </form>
 
         <h1 class="rosenwald_title">ROSENWALD</h1>
         <h1 class="digital_collections_title">Digital Collections</h1>
 
         <!-- Search bar -->
         <div class="search_bar_rectangle"></div>
-        <h1 class="search_keyword_text">Search keyword(s)</h1>
-        <img src="{% static 'images/search_white_24dp.svg' %}" class="search_icon"/>
+        <input type="textfield" placeholder="Search keyword(s)" class="search_keyword_text" />
+        <a href="{% static 'templates/example.html' %}">
+            <button style = "cursor: pointer; 
+                background-color: transparent; 
+                background-repeat: no-repeat;
+                border: none;
+                overflow: hidden;
+                outline: none;">
+                <img src="{% static 'images/search_white_24dp.svg' %}" class="search_icon"/>
+            </button>
+        </a>
 
         <!-- What am I searching? -->
         <div class="question_rectangle"></div>
@@ -30,44 +43,128 @@
         <!-- Recently Digitized Items -->
         <div class="gradient_top"></div>
         <h2 class="recently_digitized_items">RECENTLY DIGITIZED ITEMS</h2>
-        <img src="{% static 'images/Rosenwald_school1.jpeg' %}" class="school_example1"></img>
-        <div class="school_example1_rectangle"></div>
-        <h3 class="school_text1">{{school1.school_name}}</h3>
-        <img src="{% static 'images/Rosenwald_school1.jpeg' %}" class="school_example2"></img>
-        <div class="school_example2_rectangle"></div>
-        <h3 class="school_text2">{{school2.school_name}}</h3>
-        <img src="{% static 'images/Rosenwald_school1.jpeg' %}" class="school_example3"></img>
-        <div class="school_example3_rectangle"></div>
-        <h3 class="school_text3">{{school3.school_name}}</h3>
+        <a href="{% static 'templates/example.html' %}">
+            <button style = "cursor: pointer; 
+                background-color: transparent; 
+                background-repeat: no-repeat;
+                border: none;
+                overflow: hidden;
+                outline: none;">
+                <img src="{% static 'images/Rosenwald_school1.jpeg' %}" class="school_example1"></img>
+                <div class="school_example1_rectangle"></div>
+                <h3 class="school_text1">{{school1.school_name}}</h3>
+            </button>
+        </a>
+
+        <a href="{% static 'templates/example.html' %}">
+            <button style = "cursor: pointer; 
+                background-color: transparent; 
+                background-repeat: no-repeat;
+                border: none;
+                overflow: hidden;
+                outline: none;">
+                <img src="{% static 'images/Rosenwald_school1.jpeg' %}" class="school_example2"></img>
+                <div class="school_example2_rectangle"></div>
+                <h3 class="school_text2">{{school2.school_name}}</h3>
+            </button>
+        </a>
+
+        <a href="{% static 'templates/example.html' %}">
+            <button style = "cursor: pointer; 
+                background-color: transparent; 
+                background-repeat: no-repeat;
+                border: none;
+                overflow: hidden;
+                outline: none;">
+                <img src="{% static 'images/Rosenwald_school1.jpeg' %}" class="school_example3"></img>
+                <div class="school_example3_rectangle"></div>
+                <h3 class="school_text3">{{school3.school_name}}</h3>
+            </button>
+        </a>
 
         <!-- Schools row -->
         <h2 class="schools_row_title">SCHOOLS <span style="color: #007BFF; font-size: 16px">SEE MORE</span></h2>
 
-        <img src="{% static 'images/Rosenwald_school1.jpeg' %}" class="schoolsRow_example1"></img>
-        <div class="schoolsRow_example1_rectangle"></div>
-        <h3 class="schoolsRow_text1">{{school4.school_name}}</h3>
+        <a href="{% static 'templates/example.html' %}">
+            <button style = "cursor: pointer; 
+                background-color: transparent; 
+                background-repeat: no-repeat;
+                border: none;
+                overflow: hidden;
+                outline: none;">
+                <img src="{% static 'images/Rosenwald_school1.jpeg' %}" class="schoolsRow_example1"></img>
+                <div class="schoolsRow_example1_rectangle"></div>
+                <h3 class="schoolsRow_text1">{{school4.school_name}}</h3>
+            </button>
+        </a>
 
-        <img src="{% static 'images/Rosenwald_school1.jpeg' %}" class="schoolsRow_example2"></img>
-        <div class="schoolsRow_example2_rectangle"></div>
-        <h3 class="schoolsRow_text2">{{school5.school_name}}</h3>
+        <a href="{% static 'templates/example.html' %}">
+            <button style = "cursor: pointer; 
+                background-color: transparent; 
+                background-repeat: no-repeat;
+                border: none;
+                overflow: hidden;
+                outline: none;">
+                <img src="{% static 'images/Rosenwald_school1.jpeg' %}" class="schoolsRow_example2"></img>
+                <div class="schoolsRow_example2_rectangle"></div>
+                <h3 class="schoolsRow_text2">{{school5.school_name}}</h3>
+            </button>
+        </a>
 
-        <img src="{% static 'images/Rosenwald_school1.jpeg' %}" class="schoolsRow_example3"></img>
-        <div class="schoolsRow_example3_rectangle"></div>
-        <h3 class="schoolsRow_text3">{{school6.school_name}}</h3>
+        <a href="{% static 'templates/example.html' %}">
+            <button style = "cursor: pointer; 
+                background-color: transparent; 
+                background-repeat: no-repeat;
+                border: none;
+                overflow: hidden;
+                outline: none;">
+                <img src="{% static 'images/Rosenwald_school1.jpeg' %}" class="schoolsRow_example3"></img>
+                <div class="schoolsRow_example3_rectangle"></div>
+                <h3 class="schoolsRow_text3">{{school6.school_name}}</h3>
+            </button>
+        </a>
 
         <!-- Hospitals row -->
         <h2 class="hospitals_row_title">HOSPITALS <span style="color: #007BFF; font-size: 16px">SEE MORE</span></h2>
-        <img src="{% static 'images/Rosenwald_school1.jpeg' %}" class="hospitalsRow_example1"></img>
-        <div class="hospitalsRow_example1_rectangle"></div>
-        <h3 class="hospitalsRow_text1">School Rosenwald</h3>
 
-        <img src="{% static 'images/Rosenwald_school1.jpeg' %} " class="hospitalsRow_example2"></img>
-        <div class="hospitalsRow_example2_rectangle"></div>
-        <h3 class="hospitalsRow_text2">School Rosenwald</h3>
+        <a href="{% static 'templates/example.html' %}">
+            <button style = "cursor: pointer; 
+                background-color: transparent; 
+                background-repeat: no-repeat;
+                border: none;
+                overflow: hidden;
+                outline: none;">
+                <img src="{% static 'images/Rosenwald_school1.jpeg' %}" class="hospitalsRow_example1"></img>
+                <div class="hospitalsRow_example1_rectangle"></div>
+                <h3 class="hospitalsRow_text1">School Rosenwald</h3>
+            </button>
+        </a>
 
-        <img src="{% static 'images/Rosenwald_school1.jpeg' %}" class="hospitalsRow_example3"></img>
-        <div class="hospitalsRow_example3_rectangle"></div>
-        <h3 class="hospitalsRow_text3">School Rosenwald</h3>
+        <a href="{% static 'templates/example.html' %}">
+            <button style = "cursor: pointer; 
+                background-color: transparent; 
+                background-repeat: no-repeat;
+                border: none;
+                overflow: hidden;
+                outline: none;">
+                <img src="{% static 'images/Rosenwald_school1.jpeg' %} " class="hospitalsRow_example2"></img>
+                <div class="hospitalsRow_example2_rectangle"></div>
+                <h3 class="hospitalsRow_text2">School Rosenwald</h3>
+            </button>
+        </a>
+
+        <a href="{% static 'templates/example.html' %}">
+            <button style = "cursor: pointer; 
+                background-color: transparent; 
+                background-repeat: no-repeat;
+                border: none;
+                overflow: hidden;
+                outline: none;">
+                <img src="{% static 'images/Rosenwald_school1.jpeg' %}" class="hospitalsRow_example3"></img>
+                <div class="hospitalsRow_example3_rectangle"></div>
+                <h3 class="hospitalsRow_text3">School Rosenwald</h3>
+            </button>
+        </a>
 
         <!-- Footer -->
         <div>
